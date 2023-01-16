@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/categoria1">
+        <CheckBoxPreference android:key="clave1" android:title="@string/preferenciacheck" android:summary="@string/descripcioncheck"></CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/categoria2">
+        <ListPreference
+            android:key="clave2"
+            android:title="@string/preferencia1"
+            android:summary="@string/descripcionpref1"
+            android:entries="@array/lista"
+            android:entryValues="@array/claveLista"/>
+        <EditTextPreference
+            android:key="clave3"
+            android:title="@string/preferencia2"
+            android:summary="@string/descripcionpref2"
+            android:dialogTitle="@string/titulopref2"/>
+</PreferenceCategory>
+</PreferenceScreen>

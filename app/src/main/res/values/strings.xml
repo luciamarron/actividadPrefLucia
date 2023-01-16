@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">actividadPrefLucía</string>
+    <string name="titulo">ACTIVIDAD PREFERENCIAS</string>
+    <string name="boton1">DEFINIR PREFERENCIAS</string>
+    <string name="boton2">MOSTRAR PREFERENCIAS</string>
+    <string name="boton3">NOTIFICACIÓN</string>
+    <string name="categoria2">CATEGORIA 2</string>
+    <string name="categoria1">CATEGORIA 1</string>
+    <string name="preferencia2">VERSIÓN DEL SISTEMA</string>
+    <string name="descripcionpref2">Pulsa para modificar la versión del sistema</string>
+    <string name="preferencia1">SISTEMA OPERATIVO</string>
+    <string name="descripcionpref1">Pulsa para elegir sistema operativo</string>
+    <string name="titulopref2">INTRODUCE VERSIÓN:</string>
+    <string name="preferenciacheck">ÚNICO SISTEMA OPERATIVO</string>
+    <string name="descripcioncheck">Marca esta casilla si sólo existe un sistema operativo</string>
+    <string name="channel_name">CANAL NOTIFICACIÓN</string>
+    <string name="channel_description">DESCRIPCIÓN DEL CANAL</string>
+</resources>
