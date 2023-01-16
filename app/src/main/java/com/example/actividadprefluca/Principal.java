@@ -39,8 +39,8 @@ public class Principal extends AppCompatActivity {
 
         NotificationCompat.Builder builderNot = new NotificationCompat.Builder(this,CHANNEL_ID)
                 .setSmallIcon(android.R.drawable.stat_sys_warning)
-                .setContentTitle("ALERTA")
-                .setContentText("Hola que tal")
+                .setContentTitle("NOTIFICACIÓN")
+                .setContentText("Pulsa para acceder a la nueva ventana")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setTicker("AVISO DE NOTIFICACIÓN");
 
